@@ -71,13 +71,14 @@ public class BaseClass {
 	public void setup()
 	
 	{
-		extent = new ExtentReports();
+		 extent = new ExtentReports();
 		 ExtentReportName=System.getProperty("user.dir") + "/test-output/ExtentReport"+System.currentTimeMillis()+".html";
 		 spark = new ExtentHtmlReporter(ExtentReportName);
 		 extent.attachReporter(spark);
 		 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
+		options.addArguments("--incognito");
 	
 		driver = new ChromeDriver(options);
 	//	driver1 = new ChromeDriver(options);
@@ -213,7 +214,7 @@ public class BaseClass {
 		}
 
 @AfterTest
-public void teramdown()
+public void teradown()
 {
 	//driver.close();
 	extent.flush();

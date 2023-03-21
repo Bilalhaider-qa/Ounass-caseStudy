@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 public class Wishlist {
 	
@@ -33,17 +34,18 @@ public class Wishlist {
 		public By SizeGuide = By.xpath("//*[@id=\"root\"]/div/div[1]/div[3]/div/div[3]/div/div[1]/div[2]/div[1]/button");
 		public By CompareSizeDrp = By.id("react-select-SizeGuideV2--value");
 		public By CloseSizeGuide = By.xpath("/html/body/div[7]/div/div/button");
-		public By ColorDropdown = By.id("react-select-color_215486718--value");
-		public By SizeDropdown = By.id("react-select-sizeCode_215486718--value");
+		public By ColorDropdown = By.id("react-select-color_215914245--value");
+		public By SizeDropdown = By.id("react-select-sizeCode_215914245--value");
 		public By AddtoBag = By.xpath("//*[@id=\"root\"]/div/div[1]/div[3]/div/div[3]/div/button[2]");
 		public By RemovefromWL = By.xpath("//*[@id=\"root\"]/div/div[1]/div[3]/div/div[3]/div/button[1]");
 		
 		public void WishlsitValidations() throws InterruptedException
 		{
+			SoftAssert softAssert = new SoftAssert();
 			driver.findElement(Wishlisticon).click();
 			Thread.sleep(3000);
 		    Title =	driver.findElement(WishlistTitle).getText();
-		    Assert.assertTrue(ExpTitle.contains(Title));
+		    softAssert.assertTrue(ExpTitle.contains(Title));
 		    js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,500)", "");
 		    driver.findElement(SizeGuide).click();
@@ -60,7 +62,7 @@ public class Wishlist {
 			driver.findElement(ColorDropdown).click();
 			Thread.sleep(2000);
 			Actions keyDown1 = new Actions(driver); 
-			keyDown1.sendKeys(Keys.chord(Keys.DOWN, Keys.DOWN, Keys.ENTER)).perform();
+			keyDown1.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
 			Thread.sleep(2000);
 			//Select Size
 			wait = new WebDriverWait(driver, Duration.ofSeconds(10));

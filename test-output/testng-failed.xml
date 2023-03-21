@@ -5,13 +5,10 @@
     <classes>
       <class name="Tests.BaseClass">
         <methods>
-          <include name="Logout_ChangeLanguage"/>
+          <include name="teradown"/>
           <include name="getResult"/>
-          <include name="teramdown"/>
           <include name="setup"/>
-          <include name="AddPaymentMethod"/>
           <include name="Wishlist_Validations"/>
-          <include name="COD_Paypal"/>
         </methods>
       </class> <!-- Tests.BaseClass -->
     </classes>

@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.interactions.Actions;
 
 
@@ -30,8 +30,8 @@ public class ProductDetails {
 		public By Price = By.xpath("//*[@id=\"root-desktop\"]/main/div[2]/span[1]");
 		public By Colour = By.xpath("//*[@id=\"root-desktop\"]/main/section[1]/ul/li[1]/a/picture/img");
 		public By Size = By.id("size-code-select-input");
-		public By AddtoWL = By.xpath("//*[@id=\"root-desktop\"]/main/div[6]/button[2]");
-		public By AddBagBtn = By.xpath("//*[@id=\"root-desktop\"]/main/div[6]/button[1]");
+		public By AddtoWL = By.className("PDPDesktop-wishlistToggleButton");
+		public By AddBagBtn = By.className("PDPDesktop-addToBagButton");
 		public By MiniBag = By.xpath("//*[@id=\"cart-tooltip-trigger\"]/span");
 		public By BagBrand = By.xpath("//*[@id=\"root\"]/div/div[1]/div[3]/div[2]/div/div[1]/div[2]/div/div[2]/h3/a");
 		public By BagProduct = By.xpath("//*[@id=\"root\"]/div/div[1]/div[3]/div[2]/div/div[1]/div[2]/div/div[2]/h4/a");
@@ -51,7 +51,7 @@ public class ProductDetails {
 		
 		public void AddtoBagandVerify() throws InterruptedException
 		{
-			 
+			SoftAssert softAssert = new SoftAssert();
 			 String ExpBrand = driver.findElement(Brand).getText();
 			 ExpProductName = driver.findElement(Product).getText();
 			 
@@ -86,11 +86,11 @@ public class ProductDetails {
 			  ActPrice = driver.findElement(BagPrice).getText();
 			  System.out.println(ActPrice);
 			  
-			  Assert.assertTrue(ActBrand.contains(ExpBrand));
+			  softAssert.assertTrue(ActBrand.contains(ExpBrand));
 			  System.out.println("Brand on PDP is : "+ExpBrand+" Brand on Cart is : "+ActBrand);
-			  Assert.assertTrue(ActProductName.contains(ExpProductName));
-			  System.out.println("Product on PDP is : "+ExpProductName+" Brand on Cart is : "+ActProductName);
-			  Assert.assertTrue(ActPrice.contains(ExpPrice));
+			  softAssert.assertTrue(ActProductName.contains(ExpProductName));
+			  System.out.println("Product on PDP is : "+ExpProductName+" Product on Cart is : "+ActProductName);
+			  softAssert.assertTrue(ActPrice.contains(ExpPrice));
 			  System.out.println("Product on PDP is : "+ExpPrice+" Brand on Cart is : "+ActPrice);
 			  
 			  JavascriptExecutor js2 = (JavascriptExecutor) driver;

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-20T16:51:25 PKT" name="Default suite" finished-at="2023-03-20T16:54:30 PKT" duration-ms="184867">
+  <suite started-at="2023-03-21T12:52:45 PKT" name="Default suite" finished-at="2023-03-21T12:55:55 PKT" duration-ms="189624">
     <groups>
     </groups>
-    <test started-at="2023-03-20T16:51:25 PKT" name="Default test" finished-at="2023-03-20T16:54:30 PKT" duration-ms="184867">
+    <test started-at="2023-03-21T12:52:45 PKT" name="Default test" finished-at="2023-03-21T12:55:55 PKT" duration-ms="189624">
       <class name="Tests.BaseClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:51:25 PKT" name="setup" finished-at="2023-03-20T16:51:45 PKT" duration-ms="19877" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:52:45 PKT" name="setup" finished-at="2023-03-21T12:53:10 PKT" duration-ms="25395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HomePagetoReg()[pri:1, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:51:45 PKT" name="HomePagetoReg" finished-at="2023-03-20T16:51:57 PKT" duration-ms="12308" status="PASS">
+        <test-method signature="HomePagetoReg()[pri:1, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:10 PKT" name="HomePagetoReg" finished-at="2023-03-21T12:53:23 PKT" duration-ms="12265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePagetoReg -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:51:57 PKT" name="getResult" finished-at="2023-03-20T16:51:57 PKT" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:23 PKT" name="getResult" finished-at="2023-03-21T12:53:23 PKT" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="Registration()[pri:2, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:51:57 PKT" name="Registration" finished-at="2023-03-20T16:52:06 PKT" duration-ms="9339" status="PASS">
+        <test-method signature="Registration()[pri:2, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:23 PKT" name="Registration" finished-at="2023-03-21T12:53:32 PKT" duration-ms="9265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:06 PKT" name="getResult" finished-at="2023-03-20T16:52:06 PKT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:32 PKT" name="getResult" finished-at="2023-03-21T12:53:32 PKT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="EmailVerificationInAccount()[pri:3, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:06 PKT" name="EmailVerificationInAccount" finished-at="2023-03-20T16:52:16 PKT" duration-ms="9845" status="PASS">
+        <test-method signature="EmailVerificationInAccount()[pri:3, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:32 PKT" name="EmailVerificationInAccount" finished-at="2023-03-21T12:53:40 PKT" duration-ms="7818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailVerificationInAccount -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:16 PKT" name="getResult" finished-at="2023-03-20T16:52:16 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:40 PKT" name="getResult" finished-at="2023-03-21T12:53:40 PKT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="DisableEmailField()[pri:4, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:16 PKT" name="DisableEmailField" finished-at="2023-03-20T16:52:20 PKT" duration-ms="3332" status="PASS">
+        <test-method signature="DisableEmailField()[pri:4, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:40 PKT" name="DisableEmailField" finished-at="2023-03-21T12:53:42 PKT" duration-ms="1971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DisableEmailField -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:20 PKT" name="getResult" finished-at="2023-03-20T16:52:20 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:42 PKT" name="getResult" finished-at="2023-03-21T12:53:42 PKT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="PLPtoPDP()[pri:5, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:20 PKT" name="PLPtoPDP" finished-at="2023-03-20T16:52:40 PKT" duration-ms="20711" status="PASS">
+        <test-method signature="PLPtoPDP()[pri:5, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:53:42 PKT" name="PLPtoPDP" finished-at="2023-03-21T12:54:11 PKT" duration-ms="29527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PLPtoPDP -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:40 PKT" name="getResult" finished-at="2023-03-20T16:52:40 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:11 PKT" name="getResult" finished-at="2023-03-21T12:54:11 PKT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="Add2Bag()[pri:6, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:52:40 PKT" name="Add2Bag" finished-at="2023-03-20T16:53:09 PKT" duration-ms="29002" status="PASS">
+        <test-method signature="Add2Bag()[pri:6, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:11 PKT" name="Add2Bag" finished-at="2023-03-21T12:54:40 PKT" duration-ms="28942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add2Bag -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:09 PKT" name="getResult" finished-at="2023-03-20T16:53:09 PKT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:40 PKT" name="getResult" finished-at="2023-03-21T12:54:40 PKT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="AddShippingAddress()[pri:7, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:09 PKT" name="AddShippingAddress" finished-at="2023-03-20T16:53:23 PKT" duration-ms="13483" status="PASS">
+        <test-method signature="AddShippingAddress()[pri:7, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:40 PKT" name="AddShippingAddress" finished-at="2023-03-21T12:54:54 PKT" duration-ms="14030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddShippingAddress -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:23 PKT" name="getResult" finished-at="2023-03-20T16:53:23 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:54 PKT" name="getResult" finished-at="2023-03-21T12:54:54 PKT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="AddPaymentMethod()[pri:8, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:23 PKT" name="AddPaymentMethod" finished-at="2023-03-20T16:53:42 PKT" duration-ms="19167" status="PASS">
+        <test-method signature="AddPaymentMethod()[pri:8, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:54:54 PKT" name="AddPaymentMethod" finished-at="2023-03-21T12:55:13 PKT" duration-ms="18773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPaymentMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:42 PKT" name="getResult" finished-at="2023-03-20T16:53:42 PKT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:13 PKT" name="getResult" finished-at="2023-03-21T12:55:13 PKT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="COD_Paypal()[pri:9, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:42 PKT" name="COD_Paypal" finished-at="2023-03-20T16:53:58 PKT" duration-ms="15973" status="PASS">
+        <test-method signature="COD_Paypal()[pri:9, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:13 PKT" name="COD_Paypal" finished-at="2023-03-21T12:55:26 PKT" duration-ms="12727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- COD_Paypal -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:58 PKT" name="getResult" finished-at="2023-03-20T16:53:58 PKT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:26 PKT" name="getResult" finished-at="2023-03-21T12:55:26 PKT" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="Wishlist_Validations()[pri:10, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:53:58 PKT" name="Wishlist_Validations" finished-at="2023-03-20T16:54:20 PKT" duration-ms="21836" status="PASS">
+        <test-method signature="Wishlist_Validations()[pri:10, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:26 PKT" name="Wishlist_Validations" finished-at="2023-03-21T12:55:47 PKT" duration-ms="21010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Wishlist_Validations -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:54:20 PKT" name="getResult" finished-at="2023-03-20T16:54:20 PKT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:47 PKT" name="getResult" finished-at="2023-03-21T12:55:47 PKT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,11 +161,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="Logout_ChangeLanguage()[pri:11, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:54:20 PKT" name="Logout_ChangeLanguage" finished-at="2023-03-20T16:54:29 PKT" duration-ms="9208" status="PASS">
+        <test-method signature="Logout_ChangeLanguage()[pri:11, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:47 PKT" name="Logout_ChangeLanguage" finished-at="2023-03-21T12:55:54 PKT" duration-ms="7169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout_ChangeLanguage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:54:29 PKT" name="getResult" finished-at="2023-03-20T16:54:29 PKT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:54 PKT" name="getResult" finished-at="2023-03-21T12:55:54 PKT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,10 +176,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="teramdown()[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-20T16:54:29 PKT" name="teramdown" finished-at="2023-03-20T16:54:30 PKT" duration-ms="509" status="PASS">
+        <test-method is-config="true" signature="teradown()[pri:0, instance:Tests.BaseClass@6e9175d8]" started-at="2023-03-21T12:55:54 PKT" name="teradown" finished-at="2023-03-21T12:55:55 PKT" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teramdown -->
+        </test-method> <!-- teradown -->
       </class> <!-- Tests.BaseClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
